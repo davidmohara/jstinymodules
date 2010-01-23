@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+		<script type="text/javascript" src="base2.js"></script>
+		<script type="text/javascript" src="tinymodules.bootstrap.js"></script>
+		<script type="text/javascript" src="sample.js"></script>
+		<script type="text/javascript">
+		(function($){
+		    $(document).ready(function() {
+			improving.Application.start();
+		    });
+		})(jQuery);
+		</script>
+	</head>
+	<body>
+		<h2>Status</h2>
+		<div id="status" style="width: 400px; height: 200px; border: 1px solid green;"></div>
+		<button class="clicky" href="partial.html">Load the partial</button>
+		<div id="content">This is the default content.</div>
+	</body>
+</html>
