@@ -1,0 +1,2 @@
+TinyModules was built to facilitate componentization of javascript on the client by acting as a container where services can be registered for sharing and reuse.
+
